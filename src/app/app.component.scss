@@ -1,0 +1,19 @@
+.page {
+  margin-top: 48px;
+
+  &__title {
+    text-align: center;
+
+  }
+
+  &__app-list {
+    display: flex;
+    margin: 32px 16px;
+
+    &__card {
+      width: 25%;
+      margin: 16px;
+    }
+
+  }
+}
